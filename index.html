@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="hero-container">
+            <div class="hero-logo">
+                <img src="flower3.svg" alt="Flower Logo">
+                <p>Cherry On Top</p>
+            </div>
+            <div class="credits">
+                
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="heading">
+            <h1>BINI</h1>
+            <h2>
+                BINI is a 8-member Filipino girl group under Star Magic of ABS-CBN. 
+                The group consists of Jhoanna, Aiah, Colet, Maloi, Gwen, Stacey, Mikha, and Sheena. 
+                They released their pre-debut single, “Da Coconut Nut,” on November 6th, 2020. 
+                BINI officially debuted on June 11th, 2021 with another single, “Born To Win.”
+            </h2>
+        </section>
+
+        <section class="form-section">
+ 
+        <h2>User Info</h2>
+        <form action="" method="post">
+            <div class="form-row">
+                <label for="first-name">First Name
+                <input id="first-name" name="first-name" type="text" required>
+                </label>
+                <label for="last-name">Last Name
+                    <input id="last-name" name="last-name" type="text" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label for="email">Email
+                <input id="email" name="email" type="email" required>
+                </label>
+                
+                <label for="phone">Phone
+                <input id="phone" name="phone" type="tel" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label for="password">Password
+                <input pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                id="password" name="password" type="password" required>
+                </label>
+                
+                <label for="valid-password">Confirm Password
+                <input pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                id="valid-password" name="valid-password" type="password" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <button class="submit" name="submit">
+                    Create Account
+                </button>
+            </div>
+        </form>
+        
+        </section>
+        <div class="login">
+            Already have an account?<a href="" > Log In</a>
+        </div>
+    </main>
+</body>
+</html>
